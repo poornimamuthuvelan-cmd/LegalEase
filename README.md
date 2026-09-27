@@ -1,54 +1,53 @@
 # LegalEase: AI-Powered Legal Document Generator
 
-## Project Overview
+**TNSkill Student Project**
 
-LegalEase is an educational AI-powered project designed to help users generate structured draft legal documents from the information they provide.
+LegalEase is a Python + Streamlit application that demonstrates AI-assisted generation of draft legal-style documents. It is designed as an educational project and does not provide legal advice.
 
-## Objectives
+## Features
 
-- Simplify the preparation of common legal document drafts.
-- Provide a simple and user-friendly interface.
-- Use AI to generate structured document content.
-- Allow users to review and edit generated drafts.
-
-## Key Features
-
-- Select a document type.
-- Enter required information.
-- Generate a structured draft using AI.
-- Review and edit the generated document.
-- Download or save the final document.
+- Rental Agreement draft generator
+- Affidavit / Declaration draft generator
+- Permission Letter draft generator
+- AI-assisted rewriting with Google Gemini when an API key is configured
+- Template/demo mode when no API key is available
+- Editable generated text
+- PDF export using ReportLab
+- Clear educational/legal-review disclaimer
 
 ## Technologies
 
 - Python
 - Streamlit
-- Google Gemini API
-- PDF document generation
+- Google Gemini API (optional)
+- ReportLab
 
-## Project Phases
+## Run the project
 
-This repository contains documentation for all 8 project phases:
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
 
-1. Brainstorming and Ideation
-2. Requirement Analysis
-3. Project Design
-4. Project Planning
-5. Project Development
-6. Project Testing
-7. Project Documentation
-8. Project Demonstration
+The application opens in your browser.
+
+## Optional Gemini setup
+
+Set the environment variable `GOOGLE_API_KEY` before starting Streamlit. Never upload an API key to GitHub.
+
+If no API key is configured, LegalEase automatically runs in template/demo mode.
+
+## Project workflow
+
+**Choose document → Enter details → Generate draft → Review/edit → Prepare PDF → Download**
 
 ## Disclaimer
 
-LegalEase is an educational project and does not provide legal advice. Generated documents are drafts and should be carefully reviewed. For actual legal matters, consult a qualified legal professional.
+LegalEase generates drafts for educational and informational purposes. It is not a substitute for legal advice, legal representation, or professional review. Users should verify all facts and consult a qualified legal professional before using a document for an actual legal matter.
 
-## Prepared By
+## Prepared by
 
-M. Poornima  
-II BCA Shift 1 
-S.S.K.V College of Arts and Science for Women
-
-## Date
-
-24.09.2026
+**M. Poornima**  
+**II BCA**  
+**S.S.K.V College of Arts and Science for Women**  
+**Date: 24.09.2026**
